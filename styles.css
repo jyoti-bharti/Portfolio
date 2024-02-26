@@ -2,6 +2,7 @@
     margin: 0px;
     padding:0px;
 }
+/* --------------------body------------------- */
 /* -------------------header----------------- */
 .navbar{
     height:50px;
@@ -29,29 +30,56 @@
 /* -----------------main-------------------------- */
 main{
     display: flex;
+    justify-content: space-between;
 }
 img{
     object-fit: fill;
     width: 300px;
     height: 300px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .image{
     height:auto;
-    width:auto;
+    width:300px;
     max-width: 500vw;
-    border: 5px solid black;
     margin:3rem;
     padding:2rem;
     align-items: center;
     justify-content:center;
+    /* border: 5px solid black; */
+}
+
+.container{
+    margin:3rem;
+    padding:2rem;
+    height: auto;
+    width: 100%;
+    /* background-color: chartreuse; */
 }
 
 h1{
     color: black;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:1rem;
+    background-color: beige;
+
+}
+
+h2{
+    color: black;
+    /* text-align: center; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    margin: 0.5em;
+    /* background-color: darkorange; */
+    /* text-decoration: none; */
+}
+
+.content{
+    margin:2rem;
+    padding: 1rem;
+    /* background-color: fuchsia; */
 }
 
 .content:hover{
@@ -59,6 +87,11 @@ h1{
     background-color:aliceblue;
 }
 
+ul li{
+    list-style-type:none;
+    margin-top:1rem;
+    background-color: blueviolet;
+}
 /* -------------------footer---------------------- */
 footer{
     background-color: darkblue;
