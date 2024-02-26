@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/* -------------------header----------------- */
+.navbar{
+    height:50px;
+    width:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    background-color: darkblue;
+}
+.navbar a{
+    margin:5px;
+    padding:5px;
+    border: 1px solid white;
+    border-radius:3mm;
+    background-color: orange;
+}
+.navbar a:hover{
+    cursor: pointer;
+    color:black;
+    font-weight: 800;
+    background-color: greenyellow;
+}
+
+/* -----------------main-------------------------- */
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content:hover{
+    
+    text-decoration: underline;
+    background-color:aliceblue;
+
+}
+
+/* -------------------footer---------------------- */
+footer{
+    background-color: darkblue;
+    color: aliceblue;
+    display:block;
+    justify-content: center;
+    align-items: end;
+}
+
+address{
+    justify-content: center;
+    text-align: center;
+    align-items: end;
+}
