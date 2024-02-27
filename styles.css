@@ -57,7 +57,7 @@ img{
 .container{
     margin:2rem;
     padding:1rem;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: auto;
     width: 100%;
     /* background-color: chartreuse; */
@@ -99,17 +99,47 @@ ul li{
     margin-top:1rem;
     /* background-color: blueviolet; */
 }
+
+p{
+    margin:1rem;
+    font-size: 20px;
+}
+
 /* -------------------footer---------------------- */
+
 footer{
-    background-color: brown;
+    background-color: darkred;
     color: aliceblue;
     display:block;
     justify-content: center;
     align-items: end;
+    padding:1rem;
 }
 
 address{
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: end;
+    
+}
+
+.social-contact{
+    display: block;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-contact a{
+    font-size: 32px;
+    margin:0rem 1rem 1rem 3rem;
+}
+
+a:active,a:visited{
+    color:black;
 }
